@@ -1,0 +1,52 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  
+  "SimMode": "Multirotor",
+  
+  "Vehicles": {
+    "SimpleFlight": {
+      "VehicleType": "SimpleFlight",
+      "DefaultVehicleState": "Inactive",
+      "AutoCreate": true,
+      "PawnPath": "",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": true,
+      "RC": {
+        "RemoteControlID": -1,
+        "AllowAPIWhenDisconnected": false
+      },
+      "DefaultSensors": {
+        "Barometer": {
+          "SensorType": 1,
+          "Enabled" : true
+        },
+        "Imu": {
+          "SensorType": 2,
+          "Enabled" : true
+        },
+        "Gps": {
+          "SensorType": 3,
+          "Enabled" : true
+        },
+        "Magnetometer": {
+          "SensorType": 4,
+          "Enabled" : true
+        },
+        "Distance": {
+          "SensorType": 5,
+          "Enabled" : true
+        }
+      },
+
+      "X": 0, "Y": 0, "Z": 0,
+      "Pitch": 0, "Roll": 0, "Yaw": 0
+    }
+  },
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "0", "ImageType": 0, "Visible": true},
+    {"WindowID": 1, "CameraName": "3", "ImageType": 0, "Visible": true},
+    {"WindowID": 2, "CameraName": "4", "ImageType": 0, "Visible": true}
+  ]
+}
